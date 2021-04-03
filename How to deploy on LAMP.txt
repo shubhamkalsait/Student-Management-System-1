@@ -5,3 +5,9 @@ Step3: Create remote user for mysql
         `mysql> GRANT ALL PRIVILEGES ON *.* TO 'dbadmin'@'%';`
 Step4: Create a Database and run sql/install_sql.sql script into the Database
 Step5: Add below lines in config/db.php
+                    <?php
+                define('db_host', 'ec2-65-1-131-138.ap-south-1.compute.amazonaws.com');
+                define('db_user', 'admin');
+                define('db_pass', 'admin');
+                define('db_name', 'student_info');
+        ?>
