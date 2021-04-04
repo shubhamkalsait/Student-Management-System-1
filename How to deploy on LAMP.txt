@@ -11,3 +11,4 @@ Step5: Add below lines in config/db.php
                 define('db_pass', 'admin');
                 define('db_name', 'student_info');
         ?>
+Step6: User and password will be admin, admin respectively
