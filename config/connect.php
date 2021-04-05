@@ -27,7 +27,7 @@ class database {
  public function __construct(){
     $this->connection();
     $this->set_institute_info();
-    date_default_timezone_set('Asia/Dhaka');
+    date_default_timezone_set('Asia/India');
  }
 
 

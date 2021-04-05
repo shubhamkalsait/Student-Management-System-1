@@ -85,10 +85,10 @@ public function get_user_permission_list($permit){
 public function user_permission_list(){
   $per=array();
   $sort_name=$this->db->sort_name;
-  $per[1]="TechSerm Super Admin";
-  $per[2]="TechSerm Admin";
-  $per[3]="TechSerm Manager";
-  $per[4]="TechSerm Engineer";
+  $per[1]="CloudBlitz Super Admin";
+  $per[2]="CloudBlitz Admin";
+  $per[3]="CloudBlitz Manager";
+  $per[4]="CloudBlitz Engineer";
   
   $per[6]="$sort_name Admin";
   $per[7]="$sort_name Accountant";
