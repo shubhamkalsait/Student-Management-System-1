@@ -307,14 +307,14 @@ CREATE TABLE `setting` (
 --  
 
 INSERT INTO `setting` (`id`, `option_name`, `option_value`) VALUES  
-(1, 'site_name', 'Open Source Student Management System'),  
-(2, 'sort_name', 'EMS'), 
-(3, 'address', 'Dhaka, Bangladesh'), 
-(4, 'main_logo', 'techserm_full_logo.jpg'),  
-(5, 'logo', 'techserm_small_logo.png'),  
-(6, 'phone', '-'),  
-(7, 'email', 'sk.amirhamza@gmail.com'),  
-(8, 'msg', 'EMS');  
+(1, 'site_name', 'CloudBlitz Technologies'),  
+(2, 'sort_name', 'CBZ'), 
+(3, 'address', 'Pratap Nagar, Nagpur'), 
+(4, 'main_logo', 'cloudblitz_full_logo.png'),  
+(5, 'logo', 'cloudblitz_small_logo.png'),  
+(6, 'phone', '8668274731'),  
+(7, 'email', 'shubhamkalsait@cloudblitz.in'),  
+(8, 'msg', 'CBZ');  
 
 -- --------------------------------------------------------
 
