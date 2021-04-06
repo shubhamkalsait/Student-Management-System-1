@@ -8,7 +8,7 @@
 -- PHP Version: 5.6.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+SET time_zone = "+05:30";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `youth`
+-- Database: `student_info`
 --
 
 -- --------------------------------------------------------
@@ -310,10 +310,10 @@ INSERT INTO `setting` (`id`, `option_name`, `option_value`) VALUES
 (1, 'site_name', 'CloudBlitz Technologies'),  
 (2, 'sort_name', 'CBZ'), 
 (3, 'address', 'Pratap Nagar, Nagpur'), 
-(4, 'main_logo', 'cloudblitz_full_logo.png'),  
-(5, 'logo', 'cloudblitz_small_logo.png'),  
-(6, 'phone', '8668274731'),  
-(7, 'email', 'shubhamkalsait@cloudblitz.in'),  
+(4, 'main_logo', 'cloudblitz_full_logo.jpg'),  
+(5, 'logo', 'cloudblitz_small_logo.jpg'),  
+(6, 'phone', '9529955639'),  
+(7, 'email', 'info@cloudblitz.in'),  
 (8, 'msg', 'CBZ');  
 
 -- --------------------------------------------------------
@@ -557,7 +557,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `uname`, `fname`, `photo`, `gender`, `email`, `phone`, `address`, `pass`, `permit`, `status`, `theme`) VALUES
-(1, 'admin', 'Admin', 'avatar.png', 'Male', 'admin@gmail.com', 012345678910, 'Bangladesh', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', 1, 1, 1);
+(1, 'admin', 'Admin', 'avatar.png', 'Male', 'shubhamkalsait@cloudblitz.in', 8668274731, 'India', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', 1, 1, 1);
 --
 -- Indexes for dumped tables
 --
